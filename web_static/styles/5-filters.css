@@ -4,9 +4,12 @@
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.filters button{
+section.filters button{
     font-size: 18px;
     background-color: #FF5A5F;
     color:  #FFFFFF;
@@ -14,40 +17,35 @@
     width: 20%;
     border: 0;
     border-radius: 4px;
-    float: right;
-    margin: 12px 30px;
+    margin-left: auto;
+    margin-right: 30px;
+    opacity: 1;
 }
 
-.filters button:hover{
+section.filters button:hover{
     opacity: 0.9;
 }
 /* Styling for locations and amenities*/
 
-.filters .locations, 
-.filters .amenities{
+.locations, .amenities {
     height: 100%;
     width: 25%;
-    float: left;
+    padding-left: 50px;
 }
 
-.filters .locations{
+.locations {
     border-right: 1px solid #DDDDDD;
 }
 
 .locations h3,
-.amenities h3{
+.amenities h3 {
     font-weight: 600;
-    margin-left: 30px;
-    text-align: left;
-    margin-bottom: 0px;
+    margin: 12px 0 5px 0;
 }
 
 .locations h4,
-.amenities h4{
+.amenities h4 {
     font-weight: 400;
     font-size: 14px;
-    margin-left: 30px;
-    text-align: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-left: 0 0 0 0;
 }
